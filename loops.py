@@ -1,4 +1,4 @@
-words= ["Mango", "Pineapple", "Orange", "Banana" ]
+words= ["Mango", "Pineapple", "Orange", "Banana", "Apple" ]
 for word in words:
         #This loop is fetching word from the list
         print ("The following lines will print each letters of "+word)
