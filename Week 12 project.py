@@ -23,8 +23,8 @@ print(len(aws_items))
 del aws_items[1]
 del aws_items[2]
 
-#Print the new list.
+#Print the new list
 print(aws_items)
 
-#Print the new length of the list.
+#Print the new length of the list
 print(len(aws_items))
