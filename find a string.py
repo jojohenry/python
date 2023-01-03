@@ -1,5 +1,5 @@
+#Calculates the amount of times a string exists in the given string
 def count_substring(string, sub_string):
-    '''Calculates the noOfTimes a string occurs in the given string'''
     count = 0
 
     i = string.find(sub_string)
