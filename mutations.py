@@ -1,4 +1,4 @@
-#Changes a character at a given index
+#Changes a character at a given index.
 def mutate_string(string, position, character):
     return string[:position] + character + string[position + 1:]
 
