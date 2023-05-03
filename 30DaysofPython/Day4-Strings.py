@@ -21,16 +21,16 @@ That is why I created 30 days of python."""
 print(multiline_string)
 
 # String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Jodiann'
+last_name = 'Henry'
 space = ' '
 full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
+print(full_name) # Jodiann Henry
 # Checking length of a string using len() builtin function
-print(len(first_name))  # 8
-print(len(last_name))   # 7
+print(len(first_name))  # 7
+print(len(last_name))   # 5
 print(len(first_name) > len(last_name)) # True
-print(len(full_name)) # 15
+print(len(full_name)) # 13
 
 #### Unpacking characters 
 language = 'Python'
@@ -118,12 +118,12 @@ print(challenge.find('y'))  # 5
 print(challenge.find('th')) # 0
 
 # format()	formats string into nicer output    
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-job = 'teacher'
-country = 'Finland'
+first_name = 'Jodiann'
+last_name = 'Henry'
+job = 'DevOps Engineer'
+country = 'USA'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(first_name, last_name, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+print(sentence) # I am Jodiann Henry. I am a DevOps Engineer. I live in USA.
 
 radius = 10
 pi = 3.14
@@ -209,9 +209,9 @@ print('ten'.isnumeric())    # False
 
 # join(): Returns a concatenated string
 
-web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+web_tech = ['HTML', 'CSS', 'JavaScript']
 result = '#, '.join(web_tech)
-print(result) # 'HTML# CSS# JavaScript# React'
+print(result) # 'HTML# CSS# JavaScript#'
 
 # strip(): Removes both leading and trailing characters
 
